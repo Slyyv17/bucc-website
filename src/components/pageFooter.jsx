@@ -99,6 +99,9 @@ export default function PageFooter() {
           </div>
         </section>
       </div>
+
+      {/* Small gap between the main events section and the footer */}
+      <div className="mt-5" />
     </footer>
   );
 }
