@@ -12,6 +12,7 @@ import {
   faQuoteRightAlt,
   faAngleRight,
   faAngleLeft,
+  faFilter,
 } from "@fortawesome/free-solid-svg-icons";
 
 export default function Home() {
@@ -293,7 +294,7 @@ export default function Home() {
             We Celebrate Our Past <br />
             And <span className="text-primary">Present Executives</span>
           </h2>
-          <button className="text-black">Filter</button>
+          <button className="text-black"><FontAwesomeIcon icon={faFilter} /> Filter </button>
         </div>
 
         <div className="flex items-center justify-between">
