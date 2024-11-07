@@ -345,6 +345,7 @@ export default function Home() {
             <input
               type="email"
               placeholder="Email"
+              id="email"
               className="p-2 mb-5 bg-white border border-black"
             />
             <label htmlFor="Message" className="mb-5 text-lg font-semibold">Message</label>
